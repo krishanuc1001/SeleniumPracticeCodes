@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test name="TestOne(failed)">
+    <classes>
+      <class name="crossBrowserTesting.TestNGParams">
+        <parameter name="name" value="Krishanu"/>
+        <parameter name="surname" value="Chakraborty"/>
+        <methods>
+          <include name="setUp"/>
+          <include name="demoTestTwo"/>
+          <include name="tearDown"/>
+          <include name="demoTestOne"/>
+        </methods>
+      </class> <!-- crossBrowserTesting.TestNGParams -->
+    </classes>
+  </test> <!-- TestOne(failed) -->
+  <test name="TestTwo(failed)">
+    <classes>
+      <class name="crossBrowserTesting.TestNGParams">
+        <parameter name="name" value="Ajoy"/>
+        <parameter name="surname" value="Chakraborty"/>
+        <methods>
+          <include name="setUp"/>
+          <include name="demoTestTwo"/>
+          <include name="tearDown"/>
+          <include name="demoTestOne"/>
+        </methods>
+      </class> <!-- crossBrowserTesting.TestNGParams -->
+    </classes>
+  </test> <!-- TestTwo(failed) -->
+</suite> <!-- Failed suite [Suite] -->

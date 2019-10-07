@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="Suite">
+
+	<test name="TestOne">
+		<classes>
+			<class name="crossBrowserTesting.TestNGParams">
+				<parameter name="name" value="Krishanu" />
+				<parameter name="surname" value="Chakraborty" />
+			</class>
+		</classes>
+	</test>
+
+	<test name="TestTwo">
+		<classes>
+			<class name="crossBrowserTesting.TestNGParams">
+				<parameter name="name" value="Ajoy" />
+				<parameter name="surname" value="Chakraborty" />
+			</class>
+		</classes>
+	</test>
+
+</suite>
