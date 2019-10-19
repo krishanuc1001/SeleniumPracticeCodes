@@ -221,7 +221,7 @@ public class Actions_MouseMovemnt {
 
 	public static String encode() {
 
-		String password = "alover1001";
+		String password = "********";
 		byte[] encodedPwd = Base64.getEncoder().encode(password.getBytes());
 		// System.out.println("Encoded form of " + password + "is ==> " + new
 		// String(encodedPwd));
